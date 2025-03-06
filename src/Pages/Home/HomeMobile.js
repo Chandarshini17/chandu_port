@@ -9,6 +9,7 @@ import Contact from "../Contact/Contact";
 import Icons from "../Icons";
 import Footer from "../Footer/Footer";
 import Experience from "../Experience/ExperienceDesktop";
+import Freelance from "../Freelance/FreelanceDesktop";
 
 const HeroMobile = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -159,6 +160,7 @@ const HeroMobile = () => {
             <Icons />
             <Experience />
             <div ref={projectRef}><Project /></div>
+            <Freelance />
             <div ref={skillsRef}><Skills /></div>
             <div ref={contactRef}><Contact /></div>
             <Footer />
