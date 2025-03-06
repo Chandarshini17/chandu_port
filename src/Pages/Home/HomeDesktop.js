@@ -39,7 +39,7 @@ const Hero = () => {
     const handleResumeDownload = () => {
         const link = document.createElement("a");
         link.href = resumePDF;
-        link.download = "Gokul_Raj_Resume.pdf";
+        link.download = "Chandarshini_Resume.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
